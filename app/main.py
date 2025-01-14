@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.api import auth, bills
+from api import auth, bills
 
 app = FastAPI(
     title="Utility Bill Tracker",

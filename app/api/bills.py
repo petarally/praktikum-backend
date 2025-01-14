@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, UploadFile, Form
 from pydantic import BaseModel
 import json
-from app.core.ocr import extract_text
+from core.ocr import extract_text
 
 router = APIRouter()
 
